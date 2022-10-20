@@ -71,6 +71,17 @@ body.dark-theme {
   --body-color: #1d2521;
   --container-color: #27302c;
 }
+.dark-theme::-webkit-scrollbar {
+  background-color: hsl(360, 4%, 15%);
+}
+
+.dark-theme::-webkit-scrollbar-thumb {
+  background-color: hsl(360, 4%, 25%);
+}
+
+.dark-theme::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(360, 4%, 35%);
+}
 
 /*========== Button Dark/Light ==========*/
 .change-theme {
@@ -224,6 +235,22 @@ img {
 /* Change background header */
 .scroll-header {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* ========================SCROLL BAR =================*/
+::-webkit-scrollbar {
+  width: 0.6rem;
+  border-radius: 0.5rem;
+  background-color: hsl(360, 4%, 75%);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsl(360, 4%, 65%);
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(360, 4%, 55%);
 }
 
 /* Scroll top */
